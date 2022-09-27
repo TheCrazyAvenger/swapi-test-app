@@ -3,11 +3,9 @@ import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    backgroundColor: Colors.secondary,
     padding: 20,
-    backgroundColor: Colors.background,
-  },
-  menuContainer: {
-    marginTop: 30,
+    marginBottom: 15,
+    borderRadius: 15,
   },
 })
